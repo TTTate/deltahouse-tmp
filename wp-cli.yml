@@ -1,0 +1,8 @@
+# auto-generated file
+path: "public_html"
+@vvv:
+  ssh: vagrant
+  path: /srv/www/deltahouse-vFML/public_html
+@deltahouse-vFML:
+  ssh: vagrant
+  path: /srv/www/deltahouse-vFML/public_html

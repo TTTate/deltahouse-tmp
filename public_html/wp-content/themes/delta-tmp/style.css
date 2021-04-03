@@ -1,0 +1,161 @@
+/*
+Theme Name: Deltahouse
+Text Domain: Deltahouse
+Version 0.1
+Description: FML!
+Author: I'd rather not
+*/
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+#top-header {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem 20rem;
+}
+#top-header a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+#top-header img {
+  transition: transform 0.2s;
+}
+#top-header img:hover {
+  transform: scale(1.2);
+  filter: brightness(0);
+}
+#top-header .top-text {
+  margin: 0 0 0.5rem 5rem;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+nav li {
+  margin: 0 1rem;
+}
+nav li:hover {
+  background-color: #002500;
+}
+nav ul,
+nav {
+  list-style: none;
+  background-color: #005500;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+#second-header {
+  background-color: #005500;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+#second-header a {
+  font-weight: 400;
+  font-size: 2.2rem;
+  font-style: normal;
+  background-color: #002500;
+  padding: 0.5em;
+  border-radius: 1rem;
+}
+#second-header p {
+  margin: 0 0 3rem 0;
+}
+#second-header .body {
+  padding: 100px 240px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+#kompendier {
+  text-align: center;
+  padding: 4rem 0;
+}
+#kompendier .link-button {
+  font-weight: 400;
+  font-size: 2.2rem;
+  font-style: normal;
+  color: white;
+  background-color: #002500;
+  padding: 0.5rem;
+  margin: 5rem 1rem;
+  border-radius: 1rem;
+}
+#kompendier ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#kompendier li {
+  list-style: none;
+  margin: 2rem 3rem;
+}
+#kompendier h1 {
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+#nyheter {
+  background-color: #005500;
+  padding: 5rem 15rem;
+  font-size: 1.6rem;
+}
+#nyheter h2 {
+  color: white;
+  margin: 0 0 40px 0;
+  text-align: center;
+  font-size: 3rem;
+}
+#nyheter h1 {
+  margin: 2rem 0 1rem 0;
+}
+#nyheter article {
+  background-color: white;
+  margin: 20px 120px;
+  padding: 30px;
+  line-height: 1.3em;
+  text-align: center;
+  border-radius: 3rem;
+}
+
+#nyheter a {
+  background-color: #002500;
+  margin: 10rem 0;
+  padding: 0.7rem 1.2rem;
+  font-weight: 400;
+  border-radius: 0.8rem;
+  color: white;
+}
+footer {
+  text-align: center;
+  line-height: 10px;
+  margin: 40px 0 0 0;
+  background-color: #005500;
+  color: white;
+  padding: 10px 0 30px 0;
+}
+footer p {
+  font-size: 1.6em;
+  line-height: 1.5em;
+}
+footer h4 {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
