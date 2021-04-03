@@ -7,3 +7,6 @@ Denne bruker VVV som dev enviroment. Installer nødvendig programvare og pull VV
 
 Følg VVV sin installation guide for å installere det, den er ganske straight forward og brukbar 
 https://varyingvagrantvagrants.org/
+
+### ps
+Om du er litt lost, finner du det du leter under /public_html/wp-content
